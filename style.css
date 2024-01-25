@@ -1,0 +1,124 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-image: url("pic5.webp");
+  background-size: 100%;
+}
+.bdy{
+  background-image: url('pic4.webp');
+  background-size: 100%;
+
+}
+.welcome {
+  color: rgb(19, 18, 18);
+  border-color: 2px white;
+  font-size: 4rem;
+  position: fixed;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: popupAnimation 1s infinite alternate;
+}
+
+@keyframes popupAnimation {
+  0% {
+    transform: translate(-50%, -50%);
+  }
+  100% {
+    transform: translate(-50%, -40%);
+  }
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #d0db34;
+  color: #100e0e;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  position: fixed;
+  top: 62%;
+  left: 45%;
+  font-size: 1.5rem;
+  border: 2px solid black;
+}
+
+.btn:hover {
+  outline-offset: 3px;
+  outline: 3px solid black;
+  background-color: #82d981;
+}
+
+.calci {
+  display: block;
+  /* margin: 100px auto; */
+  width: 25rem;
+  position: relative;
+  margin-top: 200px;
+  margin-left: 550px;
+}
+
+input[type="text"] {
+  width: 24rem;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-top: 2rem;
+  box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+}
+
+table {
+  width: 100%;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 5px;
+}
+
+.equal {
+  background-color: #efe40d;
+  color: #100e0e;
+}
+.equal:hover {
+  background-color: #f0eca8;
+  color: gray;
+}
+
+.operator {
+  background-color: #ef860d;
+  font-size: 25px;
+}
+.operator:hover {
+  background-color: #e99331;
+}
+.clear {
+  background-color: #a8a8a8;
+}
+.clear:hover {
+  background-color: #bbbab9;
+  color: black;
+}
+button {
+  width: 100%;
+  padding: 15px;
+  background-color: #444546;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 10px 8px 20px rgba(0, 0, 0, 0.2); /* Added box-shadow */
+}
+
+button:hover {
+  background-color: #4c4e4e;
+  box-shadow: 10px 8px 20px rgba(0, 0, 0, 0.2);
+}
+
